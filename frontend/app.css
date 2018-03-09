@@ -1,0 +1,54 @@
+a {
+    cursor: pointer;
+}
+
+.help-block {
+    font-size: 12px;
+}
+body{
+	max-width: 1500px;
+    height: 1500px;
+
+	  background-image: url("C:/Users/u54887/Pictures/ust5.jpg");
+	  background-repeat: no-repeat; 
+	   
+​}
+
+table {
+ border: 3px solid black;
+    width: 75%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color:grey}
+
+.button {
+    background-color:red;
+    border: none;
+    color:red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn1 {border-radius: 12px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+#pos {
+    position:absolute;
+transition: .5s ease;
+    left: 1000px;
+    top: 650px;
+
+}
